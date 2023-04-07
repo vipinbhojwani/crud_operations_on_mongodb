@@ -40,4 +40,9 @@
 
 * `MONGO_URI` - The URI of the MongoDB server to connect to (e.g. `mongodb://localhost:27017/`)
 * `MONGO_DBNAME` - The name of the database to use
+<<<<<<< HEAD
 * By default, the application will attempt to connect to a local MongoDB server running on the default port.
+=======
+* By default, the application will attempt to connect to a local MongoDB server running on the default port.
+>>>>>>> origin/main
+#crud_mongodb
