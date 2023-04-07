@@ -11,11 +11,9 @@
 * Install the required packages: 
   
   `pip install -r requirements.txt`
-  
 * Start the application: 
   
   `python app.py`
-  
 * Navigate to http://localhost:5000/ in your web browser to access the application.
 
 ## Usage
@@ -38,14 +36,8 @@
 ```
 
 ## Configuration
-The application expects the following environment variables to be set:
+### The application expects the following environment variables to be set:
 
-MONGO_URI - The URI of the MongoDB server to connect to (e.g. mongodb://localhost:27017/)
-MONGO_DBNAME - The name of the database to use
-By default, the application will attempt to connect to a local MongoDB server running on the default port.
-
-License
-This application is licensed under the MIT License. See the LICENSE file for details.
-
-Credits
-This application was created by [Your Name].
+* `MONGO_URI` - The URI of the MongoDB server to connect to (e.g. `mongodb://localhost:27017/`)
+* `MONGO_DBNAME` - The name of the database to use
+* By default, the application will attempt to connect to a local MongoDB server running on the default port.
